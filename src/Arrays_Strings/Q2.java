@@ -13,6 +13,7 @@ public class Q2 {
     * Sort both strings if they are not equal they are permutation of each other
     * */
     public static boolean isPermutation(String input1, String input2) {
+        //TODO: check input for null
         if (input1.length() != input2.length())
             return false;
 
@@ -35,6 +36,7 @@ public class Q2 {
     * from the hashmap, if an element does not exist or at the end the hashmap is not empty return false
     * */
     public static boolean isPermutationWithExtraDS(String input1, String input2) {
+        //TODO: check input for null
         if (input1.length() != input2.length())
             return false;
 

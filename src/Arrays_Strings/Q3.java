@@ -12,6 +12,7 @@ public class Q3 {
     *  else copy the string
     * */
     public static String URLify(String input, int actualLength){
+        //TODO: check input for null
            char[] chars = input.toCharArray();
            int endPointer = chars.length -1;
            for(int i = actualLength - 1; i>= 0; i--){

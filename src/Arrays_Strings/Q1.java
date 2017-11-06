@@ -14,6 +14,7 @@ public class Q1 {
     * Add each element in a hashtable, if the char already exists it contains duplicates
     * */
     public static boolean isUnique(String input){
+        //TODO: check input for null
         char []inputChars = input.toCharArray();
         Set<Character> set = new HashSet<>();
 
@@ -29,6 +30,7 @@ public class Q1 {
     * Sort the string and check if there are 2 same chars (there will be one after the other)
     * */
     public static boolean isUniqueWithoutExtraDS(String input){
+        //TODO: check input for null
         char []inputChars = input.toCharArray();
         Arrays.sort(inputChars);
         for(int i =0; i<inputChars.length -1; i++){
