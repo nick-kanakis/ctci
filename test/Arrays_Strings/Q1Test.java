@@ -9,18 +9,18 @@ import static junit.framework.TestCase.assertFalse;
 /**
  * Created by Nicolas on 6/11/2017.
  */
-public class IQ_1Test {
+public class Q1Test {
 
     @Test
     public void testIsUnique(){
-        assertTrue(IQ_1.isUnique("abctefghi"));
-        assertFalse(IQ_1.isUnique("abcteffghit"));
+        assertTrue(Q1.isUnique("abctefghi"));
+        assertFalse(Q1.isUnique("abcteffghit"));
     }
 
     @Test
     public void testIsUniqueWithoutExtraDS(){
-        assertTrue(IQ_1.isUniqueWithoutExtraDS("abctefghi"));
-        assertFalse(IQ_1.isUniqueWithoutExtraDS("abcteffghit"));
+        assertTrue(Q1.isUniqueWithoutExtraDS("abctefghi"));
+        assertFalse(Q1.isUniqueWithoutExtraDS("abcteffghit"));
     }
 
 }
