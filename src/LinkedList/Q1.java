@@ -15,6 +15,7 @@ public class Q1 {
     *
      */
     public static LinkedListNode removeDuplicates(LinkedListNode node) {
+        //Todo check input
         Set<Integer> set = new HashSet<>();
         LinkedListNode previous = null;
         LinkedListNode head = node;
@@ -34,7 +35,14 @@ public class Q1 {
         return head;
     }
 
+    /*
+    * Here we have 2 pointers the main pointer (outer loop) iterates the each node. For every node it visits
+    * the second pointer(fastPointer) will iterate the remaining elements from main pointer to the end. If there is another
+    * node with the same value as main pointer it must be deleted.
+    * */
     public static LinkedListNode removeDuplicatesWithoutExtraDS(LinkedListNode node) {
+        //Todo check input
+
         LinkedListNode head = node;
 
         while (node!=null){
