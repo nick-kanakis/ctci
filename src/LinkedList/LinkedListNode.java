@@ -5,8 +5,8 @@ package LinkedList;
  */
 public class LinkedListNode {
 
-    private LinkedListNode next;
-    private int data;
+    public LinkedListNode next;
+    public int data;
 
     public LinkedListNode(LinkedListNode next, int data) {
         this.next = next;
