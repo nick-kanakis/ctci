@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.helper;
 
 /**
  * Created by Nicolas on 8/11/2017.

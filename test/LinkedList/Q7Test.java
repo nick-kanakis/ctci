@@ -1,5 +1,6 @@
 package LinkedList;
 
+import LinkedList.helper.LinkedListNode;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;

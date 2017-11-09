@@ -1,5 +1,7 @@
 package LinkedList;
 
+import LinkedList.helper.LinkedListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 

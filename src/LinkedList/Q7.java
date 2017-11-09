@@ -1,5 +1,7 @@
 package LinkedList;
 
+import LinkedList.helper.LinkedListNode;
+
 /**
  * Created by Nicolas on 8/11/2017.
  */

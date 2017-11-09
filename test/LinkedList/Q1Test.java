@@ -1,6 +1,6 @@
 package LinkedList;
 
-import org.junit.Assert;
+import LinkedList.helper.LinkedListNode;
 import org.junit.Test;
 
 import java.util.HashSet;
