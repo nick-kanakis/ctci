@@ -49,11 +49,11 @@ public class Q3Test {
         stack.push(9);
         stack.push(10);
 
-        assertEquals(3, stack.popAt(1));
-        assertEquals(6, stack.popAt(2));
-        assertEquals(5, stack.popAt(2));
-        assertEquals(4, stack.popAt(2));
-        assertEquals(10, stack.popAt(4));
+        assertEquals(3, stack.popAt(0));
+        assertEquals(6, stack.popAt(1));
+        assertEquals(5, stack.popAt(1));
+        assertEquals(4, stack.popAt(1));
+        assertEquals(10, stack.popAt(2));
 
         stack.push(1);
         stack.push(2);
