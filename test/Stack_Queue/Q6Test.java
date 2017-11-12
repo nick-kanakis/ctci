@@ -23,14 +23,14 @@ public class Q6Test {
         animalShelter.enqueue(new Dog("Stephan"));
         animalShelter.enqueue(new Cat("Katerina"));
 
-        assertEquals("Azor", animalShelter.dequeueDog());
-        assertEquals("Milo", animalShelter.dequeueCat());
-        assertEquals("Sissy", animalShelter.dequeueAny());
-        assertEquals("Morgan", animalShelter.dequeueAny());
-        assertEquals("George", animalShelter.dequeueDog());
-        assertEquals("Stephan", animalShelter.dequeueDog());
-        assertEquals("Sally", animalShelter.dequeueAny());
-        assertEquals("Katerina", animalShelter.dequeueCat());
+        assertEquals("Azor", animalShelter.dequeueDog().getName());
+        assertEquals("Milo", animalShelter.dequeueCat().getName());
+        assertEquals("Sissy", animalShelter.dequeueAny().getName());
+        assertEquals("Morgan", animalShelter.dequeueAny().getName());
+        assertEquals("George", animalShelter.dequeueDog().getName());
+        assertEquals("Stephan", animalShelter.dequeueDog().getName());
+        assertEquals("Sally", animalShelter.dequeueAny().getName());
+        assertEquals("Katerina", animalShelter.dequeueCat().getName());
 
     }
 }
