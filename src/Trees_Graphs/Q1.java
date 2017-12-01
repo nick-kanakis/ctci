@@ -7,8 +7,12 @@ import java.util.LinkedList;
 
 /**
  * Start from the starting node and make a BFS traversal until you find the target node or we reach the end of the subtree
+ *
+ * (Should be rechecked)
  * Time Complexity is O(N) since we might need to traverse the whole tree.
- * Size Complexity is O(d) where d is the max number of node they exist in each level (could be d = N)
+ * Size Complexity is O(d) where d is the max number of node they exist in each level (could be d = N) *
+ *
+ *
  */
 public class Q1 {
 

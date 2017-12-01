@@ -18,6 +18,10 @@ import Trees_Graphs.helper.BinaryTreeNode;
  * You do the same for each subarray until there are no nodes left
  *
  * Tip: The trick is to use pointers for start - end of the subarray you are working on in the recursive method.
+ *
+ * (Should be rechecked)
+ * Time Complexity: O(logN) since we construct both sides of subtree.
+ * Space Complexity: O(logN) due to the logN recursive calls
  */
 public class Q2 {
 
