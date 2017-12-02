@@ -11,12 +11,12 @@ import static org.junit.Assert.assertTrue;
  * Created by Nicolas on 1/12/2017.
  */
 public class Q1Test {
-    Node<Integer> node1 = new Node<>(1);
-    Node<Integer> node2 = new Node<>(2);
-    Node<Integer> node3 = new Node<>(3);
-    Node<Integer> node4 = new Node<>(4);
-    Node<Integer> node5 = new Node<>(5);
-    Node<Integer> node6 = new Node<>(6);
+    private Node<Integer> node1 = new Node<>(1);
+    private Node<Integer> node2 = new Node<>(2);
+    private Node<Integer> node3 = new Node<>(3);
+    private Node<Integer> node4 = new Node<>(4);
+    private Node<Integer> node5 = new Node<>(5);
+    private Node<Integer> node6 = new Node<>(6);
 
     @Before
     public void setUp() throws Exception {
