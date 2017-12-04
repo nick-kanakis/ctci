@@ -9,6 +9,7 @@ import java.util.List;
 public class Node<T> {
 
     public boolean visited;
+    public int depth;
     public T value;
     public List<Node<T>> neighbors;
 
