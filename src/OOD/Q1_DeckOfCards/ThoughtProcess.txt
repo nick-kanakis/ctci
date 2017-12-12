@@ -1,0 +1,29 @@
+1) Ask what type of cards we are working on?
+    In this case we have the standard 52-card (Like a black Jack or Poker game).
+
+2) Find the Core objects
+    Suit: An enum class to identify the 4 types of cards
+    Card: An abstract class to hold the actual card (type, availability, value)
+    Deck: A class to manage the lifecycle of all cards (Cards given, cards left, dealing a Card ...)
+    Hand: A class to manage the lifecycle of a set of cards that is in the position of a player (Calculate score, add, remove card...)
+
+3) Relationship
+    A Deck object holds a set of cards
+    A Hand object holds a set of cards
+
+4) Actions
+    ~Look at each class~
+
+
+Blackjack case
+
+What need to change in order for this generic card set to be able to play blackjack?
+What are the unique rules of blackjack?
+1) 1s are equal 1 or 11
+2) Cards with faces equal to 10
+3) All other cards are equal to the faceValue.
+
+So what changes?
+
+1) First we extend card and implement Card.calculateValue method (based on the 1 & 2 described above)
+2) Hand.calculateScore must be extended and override the score method in order to return the result closest to 21
