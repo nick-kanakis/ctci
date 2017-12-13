@@ -1,0 +1,17 @@
+1) Questions
+    What information do we keep for each employee?
+
+2) Find the Core objects
+    - We need a base class Employee (to hold the common attributes like name, age, salary etc.)
+    - A series of subclasses for each level (Respondent, Manager, Director) for the specifics of each rol.
+    - !! We need a Call object to represent a call from a user. This is the main object and the whole reason of the
+      call center
+    - CallHandler object need to manage the lifecycle of the call, as well as the queue of calls,
+      and dispatch them accordingly.
+
+3) Relationship
+    All Respondent/Manager/Director are Employees the reverse is not true.
+    CallHandler object manages all Employee and Call objects
+
+4) Actions
+    ~Look at each class~
