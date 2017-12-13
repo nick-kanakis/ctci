@@ -1,5 +1,6 @@
-1) Ask what type of cards we are working on?
-    In this case we have the standard 52-card (Like a black Jack or Poker game).
+1) Questions
+    - Ask what type of cards we are working on?
+      In this case we have the standard 52-card (Like a black Jack or Poker game).
 
 2) Find the Core objects
     Suit: An enum class to identify the 4 types of cards
