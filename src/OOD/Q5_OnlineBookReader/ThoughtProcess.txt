@@ -1,0 +1,20 @@
+1) Questions:
+    Does it require login?
+    Is there a membership?
+    ...
+
+2) Find the Core objects
+    - User
+    - UserManagement user handling
+    - Book
+    - Library, handles the list of books available for purchase
+    - OnlineReaderSystem, wrapper class to manage all functionalities and the main interface of the application.
+    - Display, this object simulates the action of displaying a book
+
+3) Relationship
+    - UserManagement handles the list of User (add, remove etc.)
+    - Library handles the list Books (purchase, availability)
+    - OnlineReaderSystem has an object of UserManagement, Library.
+
+4) Actions
+    ~Look at each class~
