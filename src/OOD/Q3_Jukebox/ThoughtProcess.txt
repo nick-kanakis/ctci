@@ -1,0 +1,20 @@
+1) Questions
+    Is it a free jukebox?
+    Does it has records of MP3s ?
+    Does it give change back?
+    ...
+
+2) Find the Core objects
+    - Jukebox object is responsible for the control of all components and is the main interface exposed to the user.
+    - PaymentModule as the name suggests is responsible for handling the payments
+    - Song object
+    - SpeakerUnit object
+
+
+3) Relationship
+    Jukebox has 1 object of PaymentModule (Composition), 1 object of SpeakerUnit(Composition) and many objects of
+    Songs (Aggregation)
+
+
+4) Actions
+    ~Look at each class~
