@@ -1,7 +1,7 @@
 1) Questions
     Is it a multilevel parking lot?
     What type of vehicles can it store ?
-    How a big vehicle can be stored? (in specific spots designed for this size, or on multiple small ones)
+    How a big vehicle can be stored? (in specific spots designed for this spotSize, or on multiple small ones)
 
 2) Find the Core objects
     - CarSize enum for cas sizes available
@@ -15,7 +15,7 @@
 
 3) Relationship
     A Level has many ParkingSpot objects
-    A ParkingSpot has a certain CarSize to identify the size of the spot
+    A ParkingSpot has a certain CarSize to identify the spotSize of the spot
     A ParkingLot has many Level object.
     A Vehicle is a abstract class with Motorcycle, Car and Bus class extending the Vehicle class.
 
