@@ -1,0 +1,19 @@
+1) Questions:
+    Does "Friendship" exist in this chat?
+    Group or/and Private chat rooms ?
+
+
+2) Find the Core objects
+    - User, is a POJO with username, id, status, chatrooms that is participating.
+    - ChatRoom, has a list of Users and Messages.
+    - Message has the text and metadata of each message sent.
+    - Status an enum of Offline, online and idle.
+    - ChatServer, manages all Chatroom objects.
+
+3) Relationship
+    - User has a list of Chatroom objects that he/she is participating.
+    - Chatroom has a list of User and Message objects
+    - ChatServer is responsible for handling the lifecycle of all ChatRooom
+
+4) Actions
+    ~Look at each class~
