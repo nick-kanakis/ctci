@@ -2,7 +2,7 @@
    No questions required, puzzle is a known problem
 
 2) Find the Core objects
-    - Puzzle, holds the linkedlist of not used pieces so far, as well as an NxN grid of the solution. It is
+    - Puzzle, holds the linked list of not used pieces so far, as well as an NxN grid of the solution. It is
       responsible for setting the piece in the correct position !! Careful with the orientation !!
     - Piece, is a map of Orientation and Edge objects.
     - Edge, has a Shape object.
@@ -10,9 +10,10 @@
     - Orientation, describes the 4 types of edges (up, down, right, left)
 
 3) Relationship
-    - UserManagement handles the list of User (add, remove etc.)
-    - Library handles the list Books (purchase, availability)
-    - OnlineReaderSystem has an object of UserManagement, Library.
+    - Puzzle has a number of Pieces (some are added to the solution grid, and others in the Linked List of still
+      unused pieces.
+    - Piece has a map of Orientation and Edge (Key, Value).
+    - Edge has a shape and a reference to the parent puzzle.
 
 4) Actions
     ~Look at each class~
