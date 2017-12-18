@@ -1,0 +1,15 @@
+1) Questions:
+    Not much.
+
+2) Find the Core objects
+    - Othello the main object that handles the Board.
+    - Board, checks if a move is valid, updates the score, flips pieces
+    - Piece has 2 colors available, can be flipped.
+    - Player, has a name and a color
+
+3) Relationship
+    - Othello has a Board object, and 2 Player objects.
+    - Board has many pieces.
+
+4) Actions
+    ~Look at each class~
