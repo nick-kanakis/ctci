@@ -1,0 +1,9 @@
+
+First we need to address the issue with the circular array.
+    - This is being done by using a head pointer to be used as the start of the array.
+
+Then you must implement the Iterator interface.
+    - First on CircularArray, class implement the Iterable Interface, which require a iterator() method.
+    This method returns a new instance of Iterator.
+    - The CircularArrayIterator implements the Iterator, this objects instance must be returned from iterator method above.
+    The Iterator interface requires the following methods: boolean hasNext(), T next(), void remove()
