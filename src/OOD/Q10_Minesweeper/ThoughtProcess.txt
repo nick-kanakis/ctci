@@ -1,0 +1,15 @@
+1) Questions:
+    Not much.
+
+2) Find the Core objects
+    - Game the main object that handles the lifecycle of the fame.
+    - Board, checks if a move is valid, updates the remainingCells, flips cells
+    - Cell might be a bomb, be empty or have a number of neighbor bombs.
+    - Player, has a name.
+
+3) Relationship
+    - Game has a Player and a Board object
+    - Board has many Cell objects.
+
+4) Actions
+    ~Look at each class~
