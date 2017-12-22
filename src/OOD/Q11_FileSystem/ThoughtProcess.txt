@@ -1,0 +1,13 @@
+1) Questions:
+    - What type of functionalities does this filesystem has?
+
+2) Find the Core objects
+    - File
+    - Directory
+
+3) Relationship
+    - A directory can have multiple files.
+    - A File has a reference to his directory.
+
+4) Actions
+    ~Look at each class~
