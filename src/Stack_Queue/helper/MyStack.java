@@ -1,7 +1,5 @@
 package Stack_Queue.helper;
 
-import javafx.scene.control.TreeItem;
-
 import java.util.EmptyStackException;
 
 /**
