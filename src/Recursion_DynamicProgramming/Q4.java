@@ -1,8 +1,14 @@
 package Recursion_DynamicProgramming;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+/*
+* In order to create all subsets of a set you need to follow 3 steps:
+*  1) Create a list and add a the empty subset (EMPTY is still a subset of the set)
+*  2) Deep clone the list
+*  3) Add next value of the original list
+*  4) repeat 2-3 until there the original list is covered.
+* */
 
 public class Q4 {
 
