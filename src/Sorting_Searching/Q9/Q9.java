@@ -1,10 +1,17 @@
 package Sorting_Searching.Q9;
 
 /**
- * 1) Find the FIRST element in the diagonal that is greater than target that is called a pivot. Everything in the 4th quadrant is greater
- *    than the target. This means that we do not need to search this quadrant, also everything in the 1st quadrant is also
- *    smaller than target, so we do not have to search this one either.
+ * 1) Find the FIRST element in the diagonal that is greater than X that is called a pivot. Everything in the 4th quadrant is greater
+ *    than the X. This means that we do not need to search this quadrant, also everything in the 1st quadrant is also
+ *    smaller than X, so we do not have to search this one either.
  * 2) Recursively we search the 2 other quadrants (2nd and 3rd) in the same way.
+ *
+ * The key point here is to understand that the first diagonal element that is greater tha X means 2 things:
+ * 1) All elements in the upper left quadrant (marked by the pivot element) are smaller than X.
+ * 2) All elements in the lower right quadrant (marked by the pivot element) are greater than X.
+ *
+ *  (1) + (2) = X is not in the upper left or lower right quadrant!! search the other 2.
+ *
  */
 public class Q9 {
 
