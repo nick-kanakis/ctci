@@ -1,3 +1,5 @@
+package Sorting_Searching;
+
 import Sorting_Searching.Q9.Coordinate;
 import Sorting_Searching.Q9.Q9;
 import org.junit.Test;
