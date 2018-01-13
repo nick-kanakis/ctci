@@ -1,7 +1,7 @@
 package Thread_Locks.Q7;
 
 /**
- * Created by Nicolas on 13/1/2018.
+ * This thread prints only FizzBuzz
  */
 public class FizzBuzzThread extends Thread {
 
