@@ -57,6 +57,9 @@ public class Q17 {
         if(possiblePositions== null || possiblePositions.size() == 0)
             return false;
 
+        /*
+        * Check every possible starting point.
+        * */
         for (Integer possibleStartingPosition : possiblePositions) {
             char[] subStringOfBig = Arrays.copyOfRange(bigChars, possibleStartingPosition, possibleStartingPosition+smallChars.length);
 
