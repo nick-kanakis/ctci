@@ -1,4 +1,4 @@
-package Recursion.RobotInAGrid;
+package Recursion_DynamicProgramming.Q2;
 
 /**
  * Created by Nicolas on 24/12/2017.
