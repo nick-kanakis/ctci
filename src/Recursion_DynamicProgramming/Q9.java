@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * The slow solution is obvious. You generate all possible combinations by recursively adding () at the front,
- * at the end, or ( + WORD +) around. To avoid duplicates a hashset is used.
+ * The slow solution is obvious. You generate all possible combinations by recursively adding () at the front or ( + WORD) around. 
+ * To avoid duplicates a hashset is used.
  *
  * The second solution in more elegant. The String is created as it goes, and there is a count of how many paren left & right
  * still remain. There a index that points to the position that is being modified at the current call.

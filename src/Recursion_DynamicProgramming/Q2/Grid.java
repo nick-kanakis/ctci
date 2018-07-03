@@ -1,4 +1,4 @@
-package Recursion_DynamicProgramming.Q2;
+package Recursion.RobotInAGrid;
 
 import java.util.Arrays;
 

@@ -23,6 +23,5 @@ public class Q11Test {
         for (int size: sizes ) {
             assertTrue(size>=30 && size<=50 && size%5==0);
         }
-
     }
 }

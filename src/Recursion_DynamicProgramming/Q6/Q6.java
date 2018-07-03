@@ -21,18 +21,18 @@ public class Q6 {
             towers[0].addDisk(i);
         }
 
-        return modeDisksHelper(towers[0], towers[1], towers[2], n);
+        return moveDisksHelper(towers[0], towers[1], towers[2], n);
     }
 
-    private static boolean modeDisksHelper(Tower origin, Tower destination, Tower buffer, int n) {
+    private static boolean moveDisksHelper(Tower origin, Tower destination, Tower buffer, int n) {
         if(n>0){
-            if(!modeDisksHelper(origin, buffer, destination, n -1)){
+            if(!moveDisksHelper(origin, buffer, destination, n -1)){
                 return false;
             }
             if(!origin.moveTopTo(destination)){
                 return false;
             }
-            if(!modeDisksHelper(buffer, destination, origin, n-1)){
+            if(!moveDisksHelper(buffer, destination, origin, n-1)){
                 return false;
             }
         }

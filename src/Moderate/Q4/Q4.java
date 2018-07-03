@@ -1,7 +1,7 @@
 package Moderate.Q4;
 
 /**
- * It is relatively each to check if 3x3 grid has a winning combination you need to check the row, column, diagonal and antidiagonal
+ * It is relatively easy to check if 3x3 grid has a winning combination you need to check the row, column, diagonal and antidiagonal
  * for the last played position. In order to solve an NxN grid we can split the grid into 5 3x3 subgrids.
  *
  * Taking as a point of reference the last played cell we create an upper left, upper right, lower left, lower right and center

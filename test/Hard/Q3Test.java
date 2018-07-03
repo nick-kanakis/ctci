@@ -10,7 +10,7 @@ import static junit.framework.TestCase.assertTrue;
 public class Q3Test {
 
     @Test
-    public void testShuffleCards() throws Exception {
+    public void testRandomPick() throws Exception {
         int[] input = new int[]{1,2,3,4,5,6,7,8};
 
         /*Not really a test just validating that the execution will not fail*/
